@@ -1,203 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Homework#05 Question#01  -->
+<!-- Homework#05 Question#01  -->
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Login</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Login</title>
+</head>
 
-  <body class="vh-100 d-flex flex-column">
-    <main>
-      <section
-        class="d-flex align-items-center justify-content-between pt-5"
-        style="padding-top: 40px !important"
-      >
-        <div class="w-50" style="width: 60% !important">
-          <img
-            class="w-100 h-100 object-fit-cover"
-            src="images/hero.png"
-            alt=""
-          />
-        </div>
-        <div
-          class="d-flex flex-column gap-4 px-4"
-          style="width: 35% !important"
-        >
-          <div
-            class="d-flex align-items-center justify-content-between w-50"
-            style="width: 60% !important"
-          >
-            <span class="fs-4 fw-normal text-light-emphasis">Sign in With</span>
-            <div class="d-flex align-items-center gap-3">
-              <a
-                href=""
-                class="shadow-sm bg-primary py-2 px-3 text-light d-flex align-items-center justify-content-center"
-                style="
+<body class="vh-100 d-flex flex-column justify-content-between">
+  <main>
+    <section class="d-flex align-items-center justify-content-between pt-5" style="padding-top: 40px !important">
+      <div class="w-50" style="width: 60% !important">
+        <img class="w-100 h-100 object-fit-cover" src="images/hero.png" alt="" />
+      </div>
+      <div class="d-flex flex-column gap-4 px-4" style="width: 35% !important">
+        <div class="d-flex align-items-center justify-content-between w-50" style="width: 60% !important">
+          <span class="fs-4 fw-normal text-light-emphasis">Sign in With</span>
+          <div class="d-flex align-items-center gap-3">
+            <a href=""
+              class="shadow-sm bg-primary py-2 px-3 text-light d-flex align-items-center justify-content-center" style="
                   text-decoration: none !important;
                   border-radius: 50% !important;
                   width: 40px !important;
                   height: 40px !important;
-                "
-                ><i
-                  class="fa-brands fa-facebook-f"
-                  style="border-radius: 50% !important"
-                ></i
-              ></a>
-              <a
-                href=""
-                class="shadow-sm bg-primary py-2 px-3 text-light d-flex align-items-center justify-content-center"
-                style="
+                "><i class="fa-brands fa-facebook-f" style="border-radius: 50% !important"></i></a>
+            <a href=""
+              class="shadow-sm bg-primary py-2 px-3 text-light d-flex align-items-center justify-content-center" style="
                   text-decoration: none !important;
                   border-radius: 50% !important;
                   width: 40px !important;
                   height: 40px !important;
-                "
-                ><i class="fa-brands fa-twitter"></i
-              ></a>
-              <a
-                href=""
-                class="shadow-sm bg-primary py-2 px-3 text-light d-flex align-items-center justify-content-center"
-                style="
+                "><i class="fa-brands fa-twitter"></i></a>
+            <a href=""
+              class="shadow-sm bg-primary py-2 px-3 text-light d-flex align-items-center justify-content-center" style="
                   text-decoration: none !important;
                   border-radius: 50% !important;
                   width: 40px !important;
                   height: 40px !important;
-                "
-                ><i class="fa-brands fa-linkedin-in"></i
-              ></a>
-            </div>
-          </div>
-          <div
-            class="my-3 bg-body-secondary position-relative"
-            style="height: 0.5px"
-          >
-            <span
-              class="bg-body px-3 py-0 fs-4 fw-medium position-absolute top-50 start-50 translate-middle"
-              style="transform: translateY(-58%) !important"
-              >or</span
-            >
-          </div>
-          <form>
-            <div class="mb-4">
-              <input
-                type="email"
-                class="form-control py-2"
-                placeholder="Email address"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-            </div>
-            <div class="mb-4">
-              <input
-                type="password"
-                class="form-control py-2"
-                placeholder="Password"
-                id="exampleInputPassword1"
-              />
-            </div>
-            <div
-              class="d-flex align-items-center justify-content-between w-100 mb-3"
-            >
-              <div class="form-check d-flex align-items-center gap-1">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="exampleCheck1"
-                />
-                <label
-                  class="fs-5 fw-normal text-light-emphasis"
-                  for="exampleCheck1"
-                  >Remember me</label
-                >
-              </div>
-              <a
-                class="fs-5 fw-normal text-light-emphasis"
-                style="text-decoration: none"
-                >Forgot password?</a
-              >
-            </div>
-            <button
-              type="submit"
-              class="btn px-5 py-2 btn-primary fs-5 fw-medium"
-            >
-              Login
-            </button>
-          </form>
-          <div class="d-flex align-items-center gap-1">
-            <span class="fs-6 fw-bold">Don't have an account? </span>
-            <a
-              href=""
-              class="text-danger fw-bold"
-              style="text-decoration: none !important"
-            >
-              Register</a
-            >
+                "><i class="fa-brands fa-linkedin-in"></i></a>
           </div>
         </div>
-      </section>
-    </main>
-
-    <!--Start Footer -->
-    <footer
-      class="py-3 px-5 bg-primary d-flex align-items-center justify-content-between"
-    >
-      <div class="left w-75 py-1">
-        <span class="text-light"
-          >Copyright &copy; 2020. All rights reserved.</span
-        >
+        <div class="my-3 bg-body-secondary position-relative" style="height: 0.5px">
+          <span class="bg-body px-3 py-0 fs-4 fw-medium position-absolute top-50 start-50 translate-middle"
+            style="transform: translateY(-58%) !important">or</span>
+        </div>
+        <form>
+          <div class="mb-4">
+            <input type="email" class="form-control py-2" placeholder="Email address" id="exampleInputEmail1"
+              aria-describedby="emailHelp" />
+          </div>
+          <div class="mb-4">
+            <input type="password" class="form-control py-2" placeholder="Password" id="exampleInputPassword1" />
+          </div>
+          <div class="d-flex align-items-center justify-content-between w-100 mb-3">
+            <div class="form-check d-flex align-items-center gap-1">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+              <label class="fs-5 fw-normal text-light-emphasis" for="exampleCheck1">Remember me</label>
+            </div>
+            <a class="fs-5 fw-normal text-light-emphasis" style="text-decoration: none">Forgot password?</a>
+          </div>
+          <button type="submit" class="btn px-5 py-2 btn-primary fs-5 fw-medium">
+            Login
+          </button>
+        </form>
+        <div class="d-flex align-items-center gap-1">
+          <span class="fs-6 fw-bold">Don't have an account? </span>
+          <a href="" class="text-danger fw-bold" style="text-decoration: none !important">
+            Register</a>
+        </div>
       </div>
-      <div class="right">
-        <ul class="d-flex align-items-center justify-content-between gap-2">
-          <li>
-            <a
-              href="#"
-              class="d-flex align-items-center justify-content-center rounded-circle text-light link-hover link-w"
-            >
-              <i class="fa-brands fa-facebook-f"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              class="d-flex align-items-center justify-content-center rounded-circle text-light link-hover link-w"
-            >
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              class="d-flex align-items-center justify-content-center rounded-circle text-light link-hover link-w"
-            >
-              <i class="fa-brands fa-google"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              class="d-flex align-items-center justify-content-center rounded-circle text-light link-hover link-w"
-            >
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-    <!--End Footer -->
+    </section>
+  </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+  <!--Start Footer -->
+  <footer class="py-3 px-5 bg-primary d-flex align-items-center justify-content-between">
+    <div class="left w-75 py-1">
+      <span class="text-light">Copyright &copy; 2020. All rights reserved.</span>
+    </div>
+    <div class="right">
+      <ul class="d-flex align-items-center justify-content-between gap-2">
+        <li>
+          <a href="#"
+            class="d-flex align-items-center justify-content-center rounded-circle text-light link-hover link-w">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="d-flex align-items-center justify-content-center rounded-circle text-light link-hover link-w">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="d-flex align-items-center justify-content-center rounded-circle text-light link-hover link-w">
+            <i class="fa-brands fa-google"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="d-flex align-items-center justify-content-center rounded-circle text-light link-hover link-w">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!--End Footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
