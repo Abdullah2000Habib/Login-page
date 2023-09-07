@@ -1,0 +1,56 @@
+:root {
+}
+
+@font-face {
+  src: url("../fonts/Inter-Regular.ttf");
+  font-family: Inter-Regular;
+}
+
+@font-face {
+  src: url("../fonts/Inter-Bold.ttf");
+  font-family: Inter-Bold;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+body {
+  margin: 0;
+  font-family: Inter-Regular;
+}
+
+a {
+<<<<<<< HEAD
+    text-decoration: none !important;
+=======
+  text-decoration: none;
+  display: inline-block;
+>>>>>>> 61ed0b7d088ee0537418d4912ab790ffc9be2c33
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+ul li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.link-hover:hover {
+  background-color: #fefefe;
+  color: #222 !important;
+  border: 1px solid gainsboro;
+  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.link-w {
+  width: 35px !important;
+  height: 35px !important;
+}
