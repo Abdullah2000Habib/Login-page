@@ -21,12 +21,8 @@ body {
 }
 
 a {
-<<<<<<< HEAD
-    text-decoration: none !important;
-=======
   text-decoration: none;
   display: inline-block;
->>>>>>> 61ed0b7d088ee0537418d4912ab790ffc9be2c33
 }
 
 img {
